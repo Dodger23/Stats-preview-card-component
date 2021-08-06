@@ -42,16 +42,16 @@
         }
     }
     
-    .stats .text p:first-child {
+    .stats .text h1 {
         font-size: 2.8vw;
         font-weight: bold;
     }
     
-    .stats .text p:first-child span {
+    .stats .text h1 span {
         color: hsl(277, 64%, 61%);
     }
     
-    .stats .text p:last-child {
+    .stats .text p {
         color: hsla(0, 0%, 100%, 0.438);
         margin-top: 30px;
         width: 80%;
@@ -65,11 +65,11 @@
             flex-direction: column;
             justify-content: center;
         }
-        .stats .text p:first-child {
+        .stats .text h1 {
             font-size: 6.5vw;
             text-align: center;
         }
-        .stats .text p:last-child {
+        .stats .text p {
             margin-top: 10px;
             width: 100%;
             text-align: center;
